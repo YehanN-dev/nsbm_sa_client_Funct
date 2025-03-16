@@ -1,8 +1,7 @@
-// app/lecture-scheduling.tsx
 import React from 'react';
 import { ScrollView, StyleSheet, Text } from 'react-native';
-import LectureScheduleViewer from '../components/lectureScheduling/LectureScheduleViewer';
-import LectureAttendance from '../components/lectureScheduling/LectureAttendance';
+import LectureScheduleViewer from '../../components/components/lectureScheduling/LectureScheduleViewer';
+import LectureAttendance from '../../components/components/LectureAttendance';
 
 export default function LectureSchedulingScreen() {
   return (
@@ -11,7 +10,7 @@ export default function LectureSchedulingScreen() {
       
       {/* Display the calendar and lecture list */}
       <LectureScheduleViewer />
-      
+
       {/* Display attendance details and progress */}
       <LectureAttendance />
     </ScrollView>

@@ -6,7 +6,7 @@ export default function LectureScheduleViewer() {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [showDatePicker, setShowDatePicker] = useState(false);
 
-  // Dummy lecture data for the selected date
+  // Dummy lecture data for the selected date but we gotta connect to the database
   const lectures = [
     { id: 1, module: 'Mathematics', hall: 'Hall 1' },
     { id: 2, module: 'Physics', hall: 'Hall 2' },
